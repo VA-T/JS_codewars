@@ -1,0 +1,10 @@
+function positiveSum(arr) {
+let Array = arr;
+let sum=0;
+let arrayLength = Array.length;
+for (let i = 0; i < arrayLength; i++) {
+    if (Array[i]>0 ){sum+=Array[i]};
+
+}
+  return sum;
+}
