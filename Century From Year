@@ -1,0 +1,5 @@
+function century(year) {
+  // Finish this :)
+  let x = year % 100 === 0 ? year/100 : Math.floor(year/100) + 1;
+    return x; 
+}
